@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamster</title>
+    <style>
+        html{
+            font-size: 16px; 
+        }
+        body{
+            padding: 2%;
+            background-color: #c19b11;
+        }
+        h1{
+            font-size: 3em;
+            font-weight: bold;
+        }
+        .red-label{
+            color: red;
+        }
+        p{
+            text-align: justify;
+        }
+        section{
+            padding: 5px;
+        }
+
+        #hamsters-imgs{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .image-rounded{
+            min-width: 300px;
+            min-height: 300px;
+            border-radius: 50%;
+            border: 1px solid red;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        #img-1{
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR416p0GV3Twjq0Q-rNg4Nc1KodT7DyvKpEOg&usqp=CAU");
+        }
+
+        #img-2{
+            background-image: url("https://www.elsoldecuautla.com.mx/local/yd5hj4-hamster/ALTERNATES/LANDSCAPE_960/hamster");
+        }
+
+        #img-3{
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR416p0GV3Twjq0Q-rNg4Nc1KodT7DyvKpEOg&usqp=CAU");
+        }
+        table, th, td{
+            border: 1px solid red;
+            
+        }
+        .btn{
+            padding: 3px;
+            border: 1px solid gray;
+            border-top-right-radius: 10%;
+            color: white;
+            background-color: gray;
+            text-decoration: none;
+            cursor: pointer;
+
+
+        }
+
+        .btn:hover{
+            background-color: black;
+            transition: ease-in 0.5s;
+        }
+
+       
+
+
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Cricetinae</h1>
+    </section>
+    <section>
+        <p>
+            Los <span class="red-label">cricetinos</span> (Cricetinae) son una subfamilia de roedores, conocidos comúnmente como hámsteres 
+            (un germanismo). Se han identificado diecinueve especies actuales, agrupadas en siete géneros. 
+            La mayoría son originarias de Oriente Medio y del sureste de los Estados Unidos. 
+            Todas las especies se caracterizan por las bolsas expansibles, llamadas abazones, ubicadas en el 
+            interior de la boca y que van desde las mejillas hasta los hombros.
+             Al ser muy fáciles de criar en cautiverio, son ampliamente usados como animales de 
+             laboratorio o como mascotas.
+
+
+        </p>
+    </section>
+    <section id="hamsters-imgs">
+        <div id="img-1" class="image-rounded"></div>
+        <div id="img-2" class="image-rounded"></div>
+        <div id="img-3" class="image-rounded"></div>
+    </section>
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Ubicacion</th>
+                    <th>Color</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Hamster de campbell</td>
+                    <td>Rusia</td>
+                    <td>Pardo</td>
+                </tr>
+                <tr>
+                    <td>Hamster chino</td>
+                    <td>China y mongolia</td>
+                    <td>Gris</td>
+                </tr>
+                <tr>
+                    <td>Hamster roborovski</td>
+                    <td>Asia</td>
+                    <td>Cafe</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <footer>
+       <p> Para mayor informacion ver esta <a href="https://es.wikipedia.org/wiki/Cricetinae">pagina</a></p> 
+    </footer>
+
+    <a class="btn" href="https://google.com">Google</a>
+    
+</body>
+</html>
